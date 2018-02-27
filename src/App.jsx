@@ -9,7 +9,7 @@ export default class App extends Component {
   render() {
     return (
       <div className="App">
-        <h1>Welcome to {this.state.name}</h1>
+        <h1>Welcome to {this.state.name} {this.stat.length}</h1>
       </div>
     );
   }
